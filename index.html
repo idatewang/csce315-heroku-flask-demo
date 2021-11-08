@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <link rel="stylesheet" type="text/css" href="./styles.css">
+   <style>
+      .float_menu {
+      width: auto;
+      text-align: center;
+      background-size: 100% 100%;
+      }
+   </style>
+   <head>
+      <title>Duo (Steve) Wang's Personal Website</title>
+   </head>
+   <body>
+      <button onclick="dark_mode()" class="button">Click to change theme color</button>
+      <script> function dark_mode() {
+         document.body.classList.toggle("dark-mode");
+         if(document.body.classList.contains('dark-mode')){ //when the body has the class 'dark' currently
+               localStorage.setItem('darkMode', 'enabled'); //store this data if dark mode is on
+         } else {
+               localStorage.setItem('darkMode', 'disabled'); //store this data if dark mode is off
+         }
+         
+         };
+         if(localStorage.getItem('darkMode') == 'enabled'){
+            document.body.classList.toggle('dark-mode');
+         }; 
+      </script>      
+      <div class="header">
+         <h1>Duo (Steve) Wang's Personal Website</h1>
+         <h2>Howdy!!! My name is Duo Wang and I go by Steve. I am an outgoing person and I love to lead people from different backgrounds. I prefer the name Steve since I admire Steve Jobs. I want to be as successful as him so I'm always thriving in my classes and my internships. Take a look at my other tabs! I think you will find me quite interesting and possibly a good fit for certain positions at your company.</h2>
+      </div>
+      <div class="float_menu">
+         <nav>
+            <ul id="nav-list">
+               <li><a href="index.html"><b>Home</b></a></li>
+               <li><a href="portfolio.html"><b>Portfolio</b></a></li>
+               <li><a href="qualifications.html"><b>Qualifications</b></a></li>
+               <li><a href="service.html"><b>Service</a></b></li>
+            </ul>
+         </nav>
+         <img class="image" src="asdasdasdasd.JPG" alt="Example image" width="80%" />
+      </div>
+   </body>
+</html>

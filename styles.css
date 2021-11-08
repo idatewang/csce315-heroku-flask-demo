@@ -1,0 +1,79 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: rgb(91, 106, 183);
+}
+
+h2 {
+    color: rgb(204, 0, 0);
+    font-family: Helvetica;
+}
+
+h3 {
+    color: rgb(204, 102, 0);
+    font-family: Helvetica;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(153, 0, 76)
+}
+
+a {
+    font-family: Helvetica;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+#nav-list {
+    margin: auto;
+    list-style-type: none;
+    border-style: solid;
+    border-color: orangered;
+    border-width: thick;
+}
+
+#nav-list li {
+    display: inline-block;
+    margin: 20px;
+}
+
+#nav-list a {
+    font-size: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.float_menu {
+    width: auto;
+    text-align: center;
+    background-image: url("gradient-1761190_1280.jpg");
+    background-size: 100% 100%;
+}
+
+.header {
+    background-image: url("watercolor-1325656_1280.jpg");
+    text-align: center;
+    font-family: Helvetica;
+    display: block;
+}
+
+.pdf {
+    display: block;
+    text-align: center;
+    background-image: url("watercolor-1325656_1280.jpg");
+}
+
+#links a {
+    font-size: 20px;
+    text-align: center;
+}
